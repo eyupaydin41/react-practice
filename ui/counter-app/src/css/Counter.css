@@ -1,0 +1,76 @@
+.Counter {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.counter-display {
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    gap: 25px;
+}
+
+.counter-display p {
+    font-size: 130px;
+    font-weight: 700;
+    color: #333;
+    margin: 0;
+    transition: all 0.2s ease;
+}
+
+.counter-display input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    font-size: 21px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    outline: none;
+    transition: 0.2s all ease;
+}
+
+.counter-display input[type="number"]:focus {
+    border-color: #000;
+    box-shadow: 0 0 8px rgba(118, 75, 162, 0.4);
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.buttons button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: none;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s all ease;
+}
+
+.buttons button:hover {
+    background-color: #212;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.buttons button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

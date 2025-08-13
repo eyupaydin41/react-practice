@@ -1,0 +1,37 @@
+.weather-container {
+  max-width: 350px;
+  margin: 40px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f29bd5, #f25ad6);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.weather-container:hover {
+  transform: scale(1.03);
+}
+
+.weather-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.weather-temp {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.weather-desc {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+}
